@@ -344,25 +344,21 @@ async def handler(event):
         return await safe_reply(event, "❌ Использование: /forget или /forget <номер>")
 
     if t.startswith("/reset"):
-        if sender_id not in OWNER_ID:
-            return await safe_reply(event, "❌ Команда доступна только владельцу.")
+    if sender_id not in OWNER_ID:
+        return await safe_reply(event, "❌ Команда доступна только владельцу.")
 
-        if chat_id in HISTORY:
-            HISTORY[chat_id].clear()
-        HISTORY[chat_id] = HISTORY[chat_id][-HISTORY_MAX:]
+    HISTORY[chat_id] = []
 
-        save_chat_data("memory", chat_id, {"notes": []})
+    save_chat_data("memory", chat_id, {"notes": []})
+    MODEL_MOOD[chat_id] = DEFAULT_MOOD
 
-        # сброс настроения
-        MODEL_MOOD[chat_id] = DEFAULT_MOOD
-
-        await safe_reply(
-            event,
-            "♻️ Люми всё забыла.\n"
-            "🧠 Память чата очищена.\n"
-            "🙂 Настроение сброшено на стандартное."
-        )
-        return
+    await safe_reply(
+        event,
+        "♻️ Люми всё забыла.\n"
+        "🧠 Память чата очищена.\n"
+        "🙂 Настроение сброшено на стандартное."
+    )
+    return
 
     is_reply_to_bot = False
     if event.is_reply:
@@ -411,4 +407,5 @@ async def main():
     await bot.run_until_disconnected()
 
 asyncio.run(main())
+
 
