@@ -251,6 +251,8 @@ async def handler(event):
     chat_id = event.chat_id
     if chat_id is None:
         return
+        
+    HISTORY.setdefault(chat_id, [])
 
     sender = event.sender
     username = sender.username if sender and sender.username else f"user{sender_id}"
@@ -407,5 +409,6 @@ async def main():
     await bot.run_until_disconnected()
 
 asyncio.run(main())
+
 
 
