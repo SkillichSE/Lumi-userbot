@@ -75,7 +75,7 @@ python start_work.py
 **Moods:**
 
 - `/mood` — show current mood  
-- `/mood <mood>` — set mood (friendly, sarcastic, formal, funny, aggressive, horny, uncensored, shy) <img width="702" height="551" alt="Image" src="https://github.com/user-attachments/assets/466e37c8-8348-44bb-aabf-05afab6964ef" /> 
+- `/mood <mood>` — set mood (friendly, sarcastic, formal, funny, aggressive, horny, uncensored, shy)  
 - `/mood list` — list available moods  
 
 **Owner-only (OWNER_ID):**
@@ -97,6 +97,7 @@ python start_work.py
 - User-facing messages: **Russian**  
 - Developer comments, README, and instructions: **English**  
 - `PROJECT_LINKS` in code can be changed for your own references  
+
 
 
 
