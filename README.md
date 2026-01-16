@@ -2,7 +2,7 @@
 
 A Telegram **userbot** integrated with a local LLM (LM Studio).  
 Responds to messages, remembers chat history, and speaks in different moods. Triggered by the name **“Lumi”**.
-
+![Lumi Image]([example.png](https://github.com/SkillichSE/Lumi-userbot/blob/main/Lumi.png)
 ---
 
 ## Features
@@ -92,4 +92,5 @@ python start_work.py
 - User-facing messages: **Russian**  
 - Developer comments, README, and instructions: **English**  
 - `PROJECT_LINKS` in code can be changed for your own references  
+
 
