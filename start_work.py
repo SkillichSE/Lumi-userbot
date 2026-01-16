@@ -346,8 +346,12 @@ async def handler(event):
         return await safe_reply(event, "❌ Использование: /forget или /forget <номер>")
 
     if t.startswith("/reset"):
+    if not OWNER_ID:
+    print("⚠️ OWNER_ID not set, owner commands disabled")
+    return
+
     if sender_id not in OWNER_ID:
-        return await safe_reply(event, "❌ Команда доступна только владельцу.")
+    return await safe_reply(event, "❌ Команда доступна только владельцу.")
 
     HISTORY[chat_id] = []
 
@@ -409,6 +413,7 @@ async def main():
     await bot.run_until_disconnected()
 
 asyncio.run(main())
+
 
 
 
