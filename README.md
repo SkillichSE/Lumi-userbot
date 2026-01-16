@@ -7,7 +7,8 @@ Responds to messages, remembers chat history, and speaks in different moods. Tri
 ---
 ## Features
 
-- Local AI replies via LM Studio (`llama-3.1-8b-instruct`) 
+- Local AI replies via LM Studio (`llama-3.1-8b-instruct`)
+- <img width="990" height="209" alt="Image" src="https://github.com/user-attachments/assets/5fe92dca-e033-45b3-8985-fea37bd7a664" />
 - Chat memory per conversation  
 - Multiple moods (friendly, sarcastic, formal, funny, aggressive, horny, uncensored, shy)  
 - Commands for memory and bot management  
@@ -92,6 +93,7 @@ python start_work.py
 - User-facing messages: **Russian**  
 - Developer comments, README, and instructions: **English**  
 - `PROJECT_LINKS` in code can be changed for your own references  
+
 
 
 
