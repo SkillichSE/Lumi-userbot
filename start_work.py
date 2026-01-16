@@ -37,6 +37,7 @@ PROJECT_LINKS = {
     "commands": "https://teletype.in/@skillich/Commands",
     "privacy": "https://teletype.in/@skillich/Privacy_Policy",
     "support": "https://t.me/skillich",
+    "GitHub": "https://github.com/SkillichSE/Lumi-userbot",
 }
 
 # Telethon session name
@@ -270,7 +271,8 @@ async def handler(event):
                 f"<b><a href='{PROJECT_LINKS['about']}'>Люми - кто это? ⬅</a></b>\n"
                 f"<b><a href='{PROJECT_LINKS['commands']}'>Команды ⬅</a></b>\n"
                 f"<b><a href='{PROJECT_LINKS['privacy']}'>Политика конфиденциальности </a></b>\n"
-                f"<b><a href='{PROJECT_LINKS['support']}'>Тех поддержка ⬅</a></b>\n",
+                f"<b><a href='{PROJECT_LINKS['support']}'>Тех поддержка ⬅</a></b>\n"
+                f"<b><a href='{PROJECT_LINKS['GitHub']}'>GitHub source ⬅</a></b>\n",
                 parse_mode="html"
             )
             return
@@ -409,3 +411,4 @@ async def main():
     await bot.run_until_disconnected()
 
 asyncio.run(main())
+
