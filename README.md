@@ -97,7 +97,8 @@ python start_work.py
 - User-facing messages: **Russian**  
 - Developer comments, README, and instructions: **English**  
 - `PROJECT_LINKS` in code can be changed for your own references
-# Also try href="https://github.com/SkillichSE/Lumi-bot">bot version</a>
+# Also try <a href="https://github.com/SkillichSE/Lumi-bot">bot version</a>
+
 
 
 
