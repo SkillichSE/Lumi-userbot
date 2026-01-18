@@ -1,6 +1,6 @@
 # Lumi Userbot
 
-A Telegram **userbot** integrated with a local LLM (LM Studio).  
+A Telegram <a href="https://www.google.com/search?q=telegram+userbot+&sca_esv=f9558c3169decf9e&sxsrf=ANbL-n7g5g76f5ErWOaY0L4XmbNy5PpfeQ%3A1768732553424&ei=ibdsaabTGabzwPAPgobMgQY&ved=0ahUKEwjmu7Kc8pSSAxWmORAIHQIDM2AQ4dUDCBE&uact=5&oq=telegram+userbot+&gs_lp=Egxnd3Mtd2l6LXNlcnAiEXRlbGVncmFtIHVzZXJib3QgMgUQABiABDIFEAAYgAQyBRAAGIAEMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB5IhRBQoAZYqA1wAXgAkAEAmAFnoAHdA6oBAzQuMbgBA8gBAPgBAZgCBaACoQPCAgoQABiwAxjWBBhHwgIIEAAYgAQYogTCAgUQABjvBZgDAIgGAZAGCJIHAzIuM6AHohSyBwMxLjO4B50DwgcHMC4zLjEuMcgHF4AIAA&sclient=gws-wiz-serp">**userbot**</a> integrated with a local LLM (LM Studio).  
 Responds to messages, remembers chat history, and speaks in different moods. Triggered by the name **“Lumi”**.
 ## User-facing messages: **Russian**
 ![Image](https://github.com/user-attachments/assets/3ce9da92-3388-44bb-8b5f-8f02a46e442b)
@@ -98,6 +98,7 @@ python start_work.py
 - Developer comments, README, and instructions: **English**  
 - `PROJECT_LINKS` in code can be changed for your own references
 # Also try <a href="https://github.com/SkillichSE/Lumi-bot">bot version</a>
+
 
 
 
