@@ -98,6 +98,7 @@ python start_work.py
 - Developer comments, README, and instructions: **English**  
 - `PROJECT_LINKS` in code can be changed for your own references
 # Also try <a href="https://github.com/SkillichSE/Lumi-bot">bot version</a>
+# I'm glad if you type any errors in issues
 
 
 
