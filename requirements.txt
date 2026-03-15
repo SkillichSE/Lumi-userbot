@@ -1,0 +1,6 @@
+telethon
+httpx
+python-dotenv
+ddgs
+sentence-transformers
+numpy
